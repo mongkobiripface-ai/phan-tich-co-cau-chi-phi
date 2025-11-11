@@ -20,110 +20,86 @@
 </div>
 📖 1. Giới thiệu hệ thống
 
-Hệ thống Phân tích cơ cấu chi phí và đề xuất tối ưu hóa giá thành sản phẩm được xây dựng nhằm hỗ trợ các doanh nghiệp, nhà quản lý hoặc sinh viên hiểu rõ cấu trúc chi phí sản xuất, từ đó tìm ra giải pháp giảm giá thành và nâng cao hiệu quả kinh tế.
+Hệ thống Phân tích cơ cấu chi phí và đề xuất tối ưu hóa giá thành sản phẩm giúp các doanh nghiệp và nhà quản lý:
 
-Ứng dụng cho phép người dùng nhập dữ liệu chi phí, phân tích tỷ trọng các yếu tố chi phí, và đề xuất các hướng tối ưu hóa dựa trên kết quả phân tích thống kê và mô hình hóa dữ liệu.
+Hiểu rõ cơ cấu chi phí sản xuất
 
-Hệ thống được thiết kế gồm hai phần chính:
+Phát hiện chi phí bất hợp lý
 
-🔹 Backend:
-Xây dựng bằng Python (sử dụng các thư viện như Pandas, NumPy, Matplotlib), chịu trách nhiệm xử lý dữ liệu chi phí, tính toán tỷ trọng, vẽ biểu đồ, và gợi ý các phương án tối ưu chi phí.
-Dữ liệu đầu vào có thể là file Excel, CSV hoặc nhập trực tiếp qua giao diện web.
-Các kết quả phân tích được lưu vào hệ thống để dễ dàng so sánh và theo dõi.
+Tối ưu giá thành sản phẩm để tăng lợi nhuận
 
-🔹 Frontend:
-Giao diện đơn giản, thân thiện (phát triển bằng HTML/CSS/JavaScript hoặc Streamlit) cho phép người dùng:
+🔹 Thành phần hệ thống
 
-Tải dữ liệu chi phí lên hệ thống
+Backend: Xử lý dữ liệu chi phí, tính toán tỷ trọng, vẽ biểu đồ, đề xuất phương án tối ưu.
 
-Xem bảng cơ cấu chi phí theo từng yếu tố
+Frontend: Giao diện Streamlit/HTML/CSS/JS, cho phép:
 
-Quan sát biểu đồ trực quan (biểu đồ tròn, cột, Pareto, v.v.)
+Upload dữ liệu chi phí
 
-Xem các đề xuất tối ưu hóa tự động được hệ thống sinh ra
+Xem bảng cơ cấu chi phí
 
-🎯 Mục tiêu:
-Xây dựng một công cụ trực quan và dễ sử dụng giúp:
+Quan sát biểu đồ trực quan
 
-Phân tích nhanh cơ cấu chi phí của sản phẩm
+Nhận đề xuất tối ưu
 
-Phát hiện các yếu tố chi phí bất hợp lý
-
-Đưa ra đề xuất tối ưu giúp giảm giá thành, tăng lợi nhuận, và nâng cao năng lực cạnh tranh
-
-Ứng dụng cho nghiên cứu học tập, doanh nghiệp nhỏ, hoặc đồ án thực hành kinh tế - công nghệ thông tin
+🎯 Mục tiêu: Hỗ trợ phân tích chi phí, tối ưu hóa giá thành, phục vụ nghiên cứu, doanh nghiệp nhỏ hoặc đồ án thực hành.
 
 🔧 2. Công nghệ sử dụng
-
-Đề tài được triển khai dựa trên các công nghệ và công cụ phổ biến trong lĩnh vực phân tích dữ liệu (Data Analysis) và trực quan hóa (Data Visualization).
-Hệ thống được phát triển với mục tiêu dễ cài đặt, dễ sử dụng và có thể mở rộng cho các bài toán tương tự trong quản trị chi phí.
-
 🧠 Ngôn ngữ & Nền tảng
 
-Python 3.10+ – ngôn ngữ chính dùng cho xử lý, tính toán và trực quan hóa dữ liệu.
+Python 3.10+
 
-Jupyter Notebook / Streamlit – nền tảng phân tích tương tác và hiển thị kết quả trực quan.
+Jupyter Notebook / Streamlit
 
-Excel / CSV – nguồn dữ liệu đầu vào linh hoạt cho việc nhập chi phí sản xuất.
+Excel / CSV làm nguồn dữ liệu
 
-🧩 Thư viện Python chính
-Nhóm chức năng	Thư viện sử dụng	Mô tả
-Xử lý dữ liệu	pandas, numpy	Đọc, tổng hợp và tính toán dữ liệu chi phí
-Trực quan hóa	matplotlib, seaborn, plotly	Biểu đồ tròn, cột, Pareto, xu hướng chi phí
-Phân tích tối ưu	scikit-learn, statsmodels (tùy chọn)	Hỗ trợ mô hình hồi quy hoặc dự báo chi phí
-Giao diện người dùng	streamlit hoặc dash	Hiển thị dữ liệu và biểu đồ trên trình duyệt
-Báo cáo	openpyxl, fpdf (tùy chọn)	Xuất file Excel, PDF hoặc hình ảnh báo cáo
-🗃️ Cấu trúc cơ sở dữ liệu (tùy chọn)
+🧩 Thư viện Python
+Nhóm chức năng	Thư viện	Mô tả
+Xử lý dữ liệu	pandas, numpy	Đọc, tổng hợp, tính toán chi phí
+Trực quan hóa	matplotlib, seaborn, plotly	Biểu đồ tròn, cột, Pareto
+Phân tích tối ưu	scikit-learn, statsmodels (tùy chọn)	Mô hình dự báo chi phí, hồi quy
+Giao diện	streamlit / dash	Hiển thị dữ liệu và biểu đồ trực quan
+Báo cáo	openpyxl, fpdf (tùy chọn)	Xuất Excel/PDF
+⚙️ Công cụ hỗ trợ
 
-Nếu sử dụng lưu trữ dữ liệu, hệ thống có thể tích hợp:
+VS Code / PyCharm
 
-SQLite / MongoDB: lưu thông tin chi phí, phân tích và kết quả đề xuất tối ưu.
+Git & GitHub
 
-⚙️ Công cụ hỗ trợ phát triển
+Excel để kiểm chứng dữ liệu
 
-VS Code / PyCharm – môi trường lập trình chính
+🖼 3. Hình ảnh minh họa chức năng
+Upload dữ liệu	Biểu đồ cơ cấu chi phí	Đề xuất tối ưu hóa
 
-Git & GitHub – quản lý mã nguồn và phiên bản
+	
+	
 
-Excel – dùng để nhập và kiểm chứng dữ liệu mẫu
+Lưu ý: Thay images/... bằng đường dẫn hình ảnh thực tế của bạn.
 
 📝 4. Hướng dẫn cài đặt và sử dụng
-4.1. Yêu cầu hệ thống
+1️⃣ Yêu cầu hệ thống
 
-Python 3.8 trở lên
+Python 3.8+
 
-Hệ điều hành: Windows, macOS hoặc Linux
+Windows, macOS hoặc Linux
 
-Có kết nối Internet để tải các thư viện cần thiết
+Internet để tải thư viện
 
-4.2. Cài đặt môi trường
-
-Tạo môi trường ảo (khuyến nghị):
-
+2️⃣ Cài đặt môi trường
+# Bước 2.1: Tạo môi trường ảo
 python -m venv env
 
-
-Kích hoạt môi trường ảo:
-
-Trên Windows:
-
+# Bước 2.2: Kích hoạt môi trường ảo
+# Windows
 .\env\Scripts\activate
-
-
-Trên macOS/Linux:
-
+# macOS/Linux
 source env/bin/activate
 
-
-Cài đặt các thư viện cần thiết:
-
+# Bước 2.3: Cài thư viện
 pip install -r requirements.txt
 
 
-Lưu ý:
-Bạn cần chuẩn bị file requirements.txt với các thư viện đã dùng như pandas, numpy, matplotlib, seaborn, streamlit,...
-
-Ví dụ nội dung requirements.txt:
+💡 Note: requirements.txt chứa các thư viện cơ bản:
 
 pandas
 numpy
@@ -131,39 +107,36 @@ matplotlib
 seaborn
 streamlit
 
-4.3. Cách chạy chương trình
+3️⃣ Cách chạy chương trình
 
-Nếu dùng Jupyter Notebook:
-Mở file analysis.ipynb và chạy từng cell để thực hiện phân tích và trực quan hóa.
+Jupyter Notebook: mở analysis.ipynb, chạy từng cell.
 
-Nếu dùng Streamlit:
-Chạy lệnh sau để khởi động ứng dụng web:
+Streamlit: chạy lệnh sau:
 
 streamlit run app.py
 
 
-Sau đó mở trình duyệt truy cập địa chỉ: http://localhost:8501 để xem giao diện và sử dụng chức năng phân tích chi phí.
+Truy cập http://localhost:8501 trên trình duyệt.
 
-4.4. Hướng dẫn sử dụng cơ bản
+4️⃣ Hướng dẫn sử dụng cơ bản
 
-Nhập dữ liệu
-Chuẩn bị file dữ liệu chi phí (Excel/CSV) theo định dạng mẫu. Upload hoặc đọc file trong giao diện.
+Nhập dữ liệu: Chuẩn bị file Excel/CSV, upload vào hệ thống.
 
-Xem phân tích
-Hệ thống sẽ tính toán cơ cấu chi phí, hiển thị biểu đồ trực quan như biểu đồ tròn, cột, biểu đồ Pareto...
+Xem phân tích: Biểu đồ cơ cấu chi phí, Pareto, cột, tròn.
 
-Đề xuất tối ưu
-Dựa trên kết quả phân tích, chương trình sẽ gợi ý các biện pháp giảm chi phí hoặc tối ưu giá thành sản phẩm.
+Đề xuất tối ưu: Hệ thống gợi ý giảm chi phí, tối ưu giá thành.
 
-Xuất báo cáo
-Người dùng có thể tải file báo cáo phân tích ở định dạng Excel hoặc PDF để lưu trữ, chia sẻ.
+Xuất báo cáo: Lưu file Excel/PDF để lưu trữ hoặc chia sẻ.
 
-4.5. Lưu ý
+✅ Tip: Dữ liệu phải đầy đủ và chính xác để kết quả phản ánh đúng thực tế.
 
-Đảm bảo dữ liệu đầu vào đầy đủ và chính xác để kết quả phân tích phản ánh đúng thực tế.
+5️⃣ Lưu ý
 
-Nếu gặp lỗi trong quá trình cài đặt hoặc chạy chương trình, vui lòng kiểm tra lại các phiên bản Python và thư viện đã cài.
+Kiểm tra phiên bản Python và các thư viện trước khi chạy.
 
+Hệ thống hoạt động tốt nhất với dữ liệu chi phí đầy đủ, có cấu trúc chuẩn.
+
+Nếu gặp lỗi, đọc log trên console hoặc Streamlit để xác định nguyên nhân.
 
 
 5.👤Thông tin liên hệ
