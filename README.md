@@ -86,3 +86,79 @@ VS Code / PyCharm – môi trường lập trình chính
 Git & GitHub – quản lý mã nguồn và phiên bản
 
 Excel – dùng để nhập và kiểm chứng dữ liệu mẫu
+
+4.1. Yêu cầu hệ thống
+
+Python 3.8 trở lên
+
+Hệ điều hành: Windows, macOS hoặc Linux
+
+Có kết nối Internet để tải các thư viện cần thiết
+
+4.2. Cài đặt môi trường
+
+Tạo môi trường ảo (khuyến nghị):
+
+python -m venv env
+
+
+Kích hoạt môi trường ảo:
+
+Trên Windows:
+
+.\env\Scripts\activate
+
+
+Trên macOS/Linux:
+
+source env/bin/activate
+
+
+Cài đặt các thư viện cần thiết:
+
+pip install -r requirements.txt
+
+
+Lưu ý:
+Bạn cần chuẩn bị file requirements.txt với các thư viện đã dùng như pandas, numpy, matplotlib, seaborn, streamlit,...
+
+Ví dụ nội dung requirements.txt:
+
+pandas
+numpy
+matplotlib
+seaborn
+streamlit
+
+4.3. Cách chạy chương trình
+
+Nếu dùng Jupyter Notebook:
+Mở file analysis.ipynb và chạy từng cell để thực hiện phân tích và trực quan hóa.
+
+Nếu dùng Streamlit:
+Chạy lệnh sau để khởi động ứng dụng web:
+
+streamlit run app.py
+
+
+Sau đó mở trình duyệt truy cập địa chỉ: http://localhost:8501 để xem giao diện và sử dụng chức năng phân tích chi phí.
+
+4.4. Hướng dẫn sử dụng cơ bản
+
+Nhập dữ liệu
+Chuẩn bị file dữ liệu chi phí (Excel/CSV) theo định dạng mẫu. Upload hoặc đọc file trong giao diện.
+
+Xem phân tích
+Hệ thống sẽ tính toán cơ cấu chi phí, hiển thị biểu đồ trực quan như biểu đồ tròn, cột, biểu đồ Pareto...
+
+Đề xuất tối ưu
+Dựa trên kết quả phân tích, chương trình sẽ gợi ý các biện pháp giảm chi phí hoặc tối ưu giá thành sản phẩm.
+
+Xuất báo cáo
+Người dùng có thể tải file báo cáo phân tích ở định dạng Excel hoặc PDF để lưu trữ, chia sẻ.
+
+4.5. Lưu ý
+
+Đảm bảo dữ liệu đầu vào đầy đủ và chính xác để kết quả phân tích phản ánh đúng thực tế.
+
+Nếu gặp lỗi trong quá trình cài đặt hoặc chạy chương trình, vui lòng kiểm tra lại các phiên bản Python và thư viện đã cài.
