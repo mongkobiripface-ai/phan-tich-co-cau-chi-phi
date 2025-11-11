@@ -52,3 +52,37 @@ Phát hiện các yếu tố chi phí bất hợp lý
 Đưa ra đề xuất tối ưu giúp giảm giá thành, tăng lợi nhuận, và nâng cao năng lực cạnh tranh
 
 Ứng dụng cho nghiên cứu học tập, doanh nghiệp nhỏ, hoặc đồ án thực hành kinh tế - công nghệ thông tin
+
+🔧 2. Công nghệ sử dụng
+
+Đề tài được triển khai dựa trên các công nghệ và công cụ phổ biến trong lĩnh vực phân tích dữ liệu (Data Analysis) và trực quan hóa (Data Visualization).
+Hệ thống được phát triển với mục tiêu dễ cài đặt, dễ sử dụng và có thể mở rộng cho các bài toán tương tự trong quản trị chi phí.
+
+🧠 Ngôn ngữ & Nền tảng
+
+Python 3.10+ – ngôn ngữ chính dùng cho xử lý, tính toán và trực quan hóa dữ liệu.
+
+Jupyter Notebook / Streamlit – nền tảng phân tích tương tác và hiển thị kết quả trực quan.
+
+Excel / CSV – nguồn dữ liệu đầu vào linh hoạt cho việc nhập chi phí sản xuất.
+
+🧩 Thư viện Python chính
+Nhóm chức năng	Thư viện sử dụng	Mô tả
+Xử lý dữ liệu	pandas, numpy	Đọc, tổng hợp và tính toán dữ liệu chi phí
+Trực quan hóa	matplotlib, seaborn, plotly	Biểu đồ tròn, cột, Pareto, xu hướng chi phí
+Phân tích tối ưu	scikit-learn, statsmodels (tùy chọn)	Hỗ trợ mô hình hồi quy hoặc dự báo chi phí
+Giao diện người dùng	streamlit hoặc dash	Hiển thị dữ liệu và biểu đồ trên trình duyệt
+Báo cáo	openpyxl, fpdf (tùy chọn)	Xuất file Excel, PDF hoặc hình ảnh báo cáo
+🗃️ Cấu trúc cơ sở dữ liệu (tùy chọn)
+
+Nếu sử dụng lưu trữ dữ liệu, hệ thống có thể tích hợp:
+
+SQLite / MongoDB: lưu thông tin chi phí, phân tích và kết quả đề xuất tối ưu.
+
+⚙️ Công cụ hỗ trợ phát triển
+
+VS Code / PyCharm – môi trường lập trình chính
+
+Git & GitHub – quản lý mã nguồn và phiên bản
+
+Excel – dùng để nhập và kiểm chứng dữ liệu mẫu
