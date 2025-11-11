@@ -87,6 +87,7 @@ Git & GitHub – quản lý mã nguồn và phiên bản
 
 Excel – dùng để nhập và kiểm chứng dữ liệu mẫu
 
+📝 4. Hướng dẫn cài đặt và sử dụng
 4.1. Yêu cầu hệ thống
 
 Python 3.8 trở lên
