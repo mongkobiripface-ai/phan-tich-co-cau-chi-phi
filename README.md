@@ -18,6 +18,8 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
+📖 1. Giới thiệu hệ thống
+
 Hệ thống Phân tích cơ cấu chi phí và đề xuất tối ưu hóa giá thành sản phẩm được xây dựng nhằm hỗ trợ các doanh nghiệp, nhà quản lý hoặc sinh viên hiểu rõ cấu trúc chi phí sản xuất, từ đó tìm ra giải pháp giảm giá thành và nâng cao hiệu quả kinh tế.
 
 Ứng dụng cho phép người dùng nhập dữ liệu chi phí, phân tích tỷ trọng các yếu tố chi phí, và đề xuất các hướng tối ưu hóa dựa trên kết quả phân tích thống kê và mô hình hóa dữ liệu.
