@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align="center">
-    HỆ THỐNG CẢNH BÁO THỜI GIAN THỰC (SERVER GỬI CẢNH BÁO TỚI NHIỀU CLIENT QUA UDP)
+    Phân tích cơ cấu chi phí và đề xuất tối ưu hóa giá thành sản phẩm
 </h2>
 <div align="center">
     <p align="center">
