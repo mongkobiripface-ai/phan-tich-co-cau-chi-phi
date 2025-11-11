@@ -164,6 +164,8 @@ Người dùng có thể tải file báo cáo phân tích ở định dạng Exc
 
 Nếu gặp lỗi trong quá trình cài đặt hoặc chạy chương trình, vui lòng kiểm tra lại các phiên bản Python và thư viện đã cài.
 
+
+
 5.👤Thông tin liên hệ
 Họ tên: Nguyễn Trung Hiếu.
 Lớp: CNTT 16-01.
