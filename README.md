@@ -163,3 +163,10 @@ Người dùng có thể tải file báo cáo phân tích ở định dạng Exc
 Đảm bảo dữ liệu đầu vào đầy đủ và chính xác để kết quả phân tích phản ánh đúng thực tế.
 
 Nếu gặp lỗi trong quá trình cài đặt hoặc chạy chương trình, vui lòng kiểm tra lại các phiên bản Python và thư viện đã cài.
+
+5.👤Thông tin liên hệ
+Họ tên: Nguyễn Trung Hiếu.
+Lớp: CNTT 16-01.
+Email: mongkobiripface@gmail.com.
+
+© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
