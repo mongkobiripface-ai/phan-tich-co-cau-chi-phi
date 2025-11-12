@@ -18,7 +18,7 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
-📖 1. Giới thiệu hệ thống
+##📖 1. Giới thiệu hệ thống
 
 Hệ thống Phân tích cơ cấu chi phí và đề xuất tối ưu hóa giá thành sản phẩm giúp các doanh nghiệp và nhà quản lý:
 
@@ -44,7 +44,7 @@ Nhận đề xuất tối ưu
 
 🎯 Mục tiêu: Hỗ trợ phân tích chi phí, tối ưu hóa giá thành, phục vụ nghiên cứu, doanh nghiệp nhỏ hoặc đồ án thực hành.
 
-🔧 2. Công nghệ sử dụng
+##🔧 2. Công nghệ sử dụng
 🧠 Ngôn ngữ & Nền tảng
 
 Python 3.10+
@@ -81,7 +81,7 @@ Excel để kiểm chứng dữ liệu
 <img width="1859" height="923" alt="image" src="https://github.com/user-attachments/assets/65f9a480-f2fe-4d2d-92d9-b24c4c710d69" />
 
 
-### 🖼️ Hình 3 – Biểu đồ cơ cấu chi phí sản phẩm
+## 🖼️ Hình 3 – Biểu đồ cơ cấu chi phí sản phẩm
 **Mô tả:** Biểu đồ tròn thể hiện **tỷ lệ phân bổ các loại chi phí** trong tổng giá thành sản phẩm, giúp xác định yếu tố chi phí chiếm tỷ trọng lớn nhất.
 
 <img width="1859" height="919" alt="image" src="https://github.com/user-attachments/assets/2a636323-b498-48b7-b142-766b7571741b" />
@@ -96,7 +96,7 @@ Excel để kiểm chứng dữ liệu
 
 
 
-📝 4. Hướng dẫn cài đặt và sử dụng
+##📝 4. Hướng dẫn cài đặt và sử dụng
 1️⃣ Yêu cầu hệ thống
 
 Python 3.8+
@@ -159,7 +159,7 @@ Hệ thống hoạt động tốt nhất với dữ liệu chi phí đầy đủ
 Nếu gặp lỗi, đọc log trên console hoặc Streamlit để xác định nguyên nhân.
 
 
-5.👤Thông tin liên hệ
+##5.👤Thông tin liên hệ
 Họ tên: Nguyễn Trung Hiếu.
 Lớp: CNTT 16-01.
 Email: mongkobiripface@gmail.com.
