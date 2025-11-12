@@ -46,7 +46,7 @@ Nhận đề xuất tối ưu
 
 🎯 Mục tiêu: Hỗ trợ phân tích chi phí, tối ưu hóa giá thành, phục vụ nghiên cứu, doanh nghiệp nhỏ hoặc đồ án thực hành.
 
-##🔧 2. Công nghệ sử dụng
+## 🔧 2. Công nghệ sử dụng
 🧠 Ngôn ngữ & Nền tảng
 
 Python 3.10+
@@ -70,7 +70,7 @@ Git & GitHub
 
 Excel để kiểm chứng dữ liệu
 
-🖼 3. Hình ảnh minh họa chức năng
+## 🖼 3. Hình ảnh minh họa chức năng
 ### 🖼️ Hình 1 – Giao diện mục tiêu và quy trình phân tích chi phí
 **Mô tả:** Giao diện giới thiệu **mục tiêu và quy trình thực hiện** của dự án phân tích cơ cấu chi phí, giúp người dùng nắm rõ phạm vi và phương pháp tiến hành.
 
@@ -98,7 +98,7 @@ Excel để kiểm chứng dữ liệu
 
 
 
-##📝 4. Hướng dẫn cài đặt và sử dụng
+## 📝 4. Hướng dẫn cài đặt và sử dụng
 1️⃣ Yêu cầu hệ thống
 
 Python 3.8+
@@ -161,7 +161,7 @@ Hệ thống hoạt động tốt nhất với dữ liệu chi phí đầy đủ
 Nếu gặp lỗi, đọc log trên console hoặc Streamlit để xác định nguyên nhân.
 
 
-##5.👤Thông tin liên hệ
+## 5.👤Thông tin liên hệ
 Họ tên: Nguyễn Trung Hiếu.
 Lớp: CNTT 16-01.
 Email: mongkobiripface@gmail.com.
