@@ -18,7 +18,8 @@
 [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn)
 
 </div>
-##📖 1. Giới thiệu hệ thống
+
+#📖 1. Giới thiệu hệ thống
 
 Hệ thống Phân tích cơ cấu chi phí và đề xuất tối ưu hóa giá thành sản phẩm giúp các doanh nghiệp và nhà quản lý:
 
