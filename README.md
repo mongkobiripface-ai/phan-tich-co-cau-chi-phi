@@ -71,11 +71,16 @@ Excel để kiểm chứng dữ liệu
 🖼 3. Hình ảnh minh họa chức năng
 <img width="1874" height="927" alt="image" src="https://github.com/user-attachments/assets/dfa5bd77-e30f-4c1c-870a-2b8a9424e897" /> 
 
+<img width="1859" height="923" alt="image" src="https://github.com/user-attachments/assets/65f9a480-f2fe-4d2d-92d9-b24c4c710d69" />
+
+<img width="1859" height="919" alt="image" src="https://github.com/user-attachments/assets/2a636323-b498-48b7-b142-766b7571741b" />
+
+<img width="1873" height="930" alt="image" src="https://github.com/user-attachments/assets/72c5c8ee-8182-48a6-883a-f205fbda2308" />
 
 	
 	
 
-Lưu ý: Thay images/... bằng đường dẫn hình ảnh thực tế của bạn.
+
 
 📝 4. Hướng dẫn cài đặt và sử dụng
 1️⃣ Yêu cầu hệ thống
