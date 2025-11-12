@@ -69,14 +69,28 @@ Git & GitHub
 Excel để kiểm chứng dữ liệu
 
 🖼 3. Hình ảnh minh họa chức năng
-<img width="1874" height="927" alt="image" src="https://github.com/user-attachments/assets/dfa5bd77-e30f-4c1c-870a-2b8a9424e897" /> 
+### 🖼️ Hình 1 – Giao diện mục tiêu và quy trình phân tích chi phí
+**Mô tả:** Giao diện giới thiệu **mục tiêu và quy trình thực hiện** của dự án phân tích cơ cấu chi phí, giúp người dùng nắm rõ phạm vi và phương pháp tiến hành.
+
+<img width="1874" height="927" alt="image" src="https://github.com/user-attachments/assets/dfa5bd77-e30f-4c1c-870a-2b8a9424e897" />
+
+
+### 🖼️ Hình 2 – Dashboard kết nối Power BI
+**Mô tả:** Màn hình hiển thị **kết nối Power BI** dùng để trực quan hóa và xử lý dữ liệu phục vụ quá trình phân tích chi phí chi tiết.
 
 <img width="1859" height="923" alt="image" src="https://github.com/user-attachments/assets/65f9a480-f2fe-4d2d-92d9-b24c4c710d69" />
 
+
+### 🖼️ Hình 3 – Biểu đồ cơ cấu chi phí sản phẩm
+**Mô tả:** Biểu đồ tròn thể hiện **tỷ lệ phân bổ các loại chi phí** trong tổng giá thành sản phẩm, giúp xác định yếu tố chi phí chiếm tỷ trọng lớn nhất.
+
 <img width="1859" height="919" alt="image" src="https://github.com/user-attachments/assets/2a636323-b498-48b7-b142-766b7571741b" />
 
-<img width="1873" height="930" alt="image" src="https://github.com/user-attachments/assets/72c5c8ee-8182-48a6-883a-f205fbda2308" />
 
+### 🖼️ Hình 4 – Kết quả và nhận xét sau phân tích
+**Mô tả:** Giao diện **tổng hợp kết quả và nhận xét** cuối cùng, đưa ra đánh giá và đề xuất nhằm **tối ưu hóa chi phí sản xuất**.
+
+<img width="1873" height="930" alt="image" src="https://github.com/user-attachments/assets/72c5c8ee-8182-48a6-883a-f205fbda2308" />
 	
 	
 
