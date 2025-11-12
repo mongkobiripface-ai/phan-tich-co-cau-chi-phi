@@ -69,7 +69,8 @@ Git & GitHub
 Excel để kiểm chứng dữ liệu
 
 🖼 3. Hình ảnh minh họa chức năng
-Upload dữ liệu	Biểu đồ cơ cấu chi phí	Đề xuất tối ưu hóa
+<img width="1874" height="927" alt="image" src="https://github.com/user-attachments/assets/dfa5bd77-e30f-4c1c-870a-2b8a9424e897" /> 
+
 
 	
 	
